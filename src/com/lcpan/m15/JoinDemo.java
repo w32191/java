@@ -11,7 +11,7 @@ public class JoinDemo {
 			nt2.t.join();
 		} catch (InterruptedException e) {
 		}
-		// test git
+		// test git2
 		System.out.println(nt1.t.getName() + ":" + nt1.t.isAlive());
 		System.out.println(nt2.t.getName() + ":" + nt2.t.isAlive());
 	}
